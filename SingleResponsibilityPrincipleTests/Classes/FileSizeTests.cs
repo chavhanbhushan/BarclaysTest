@@ -14,6 +14,7 @@ namespace SingleResponsibilityPrinciple.Classes.Tests
         [TestMethod()]
         public void getFileSizeTest()
         {
+
             FileSize fs = new FileSize();
             var res = fs.getFileSize("");
             Assert.IsNotNull(res);
